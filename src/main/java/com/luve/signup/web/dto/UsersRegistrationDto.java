@@ -14,6 +14,11 @@ public class UsersRegistrationDto {
 		this.email = email;
 		this.password = password;
 	}
+	
+
+	public UsersRegistrationDto() {
+		
+	}
 
 	public String getFirstName() {
 		return firstName;
