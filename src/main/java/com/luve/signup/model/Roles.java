@@ -16,6 +16,10 @@ public class Roles {
 		return id;
 	}
 	
+	public Roles() {
+		
+	}
+	
 	public Roles(String name) {
 		super();
 		this.name = name;

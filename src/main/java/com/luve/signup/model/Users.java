@@ -34,6 +34,12 @@ public class Users {
 					name ="roles_id", referencedColumnName = "id")
 			)
 	private Collection<Roles> role;
+	
+	
+	public Users() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public Users(String firstName, String lastName, String email, String password, Collection<Roles> role) {
 		super();
 		this.firstName = firstName;

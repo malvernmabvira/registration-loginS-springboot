@@ -19,9 +19,10 @@ import com.luve.signup.web.dto.UsersRegistrationDto;
 
 @Service
 public class UsersServiceImp implements UsersService {
-	
 	@Autowired
 	private BCryptPasswordEncoder passEncoder;
+	
+	
 	
 	private UsersRepo repo;
 
